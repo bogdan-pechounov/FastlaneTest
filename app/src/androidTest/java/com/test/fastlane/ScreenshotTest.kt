@@ -28,10 +28,10 @@ class ScreenshotTest {
 
     @Before
     fun init() {
-//        Screengrab
-//            .setDefaultScreenshotStrategy(
-//                UiAutomatorScreenshotStrategy()
-//            )
+        Screengrab
+            .setDefaultScreenshotStrategy(
+                UiAutomatorScreenshotStrategy()
+            )
     }
 
     @Test
